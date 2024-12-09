@@ -383,7 +383,9 @@ dependencies = [
     { name = "ipykernel" },
     { name = "langchain" },
     { name = "langchain-community" },
+    { name = "langchain-core" },
     { name = "langchain-groq" },
+    { name = "markdown" },
     { name = "python-dotenv" },
     { name = "streamlit" },
 ]
@@ -394,7 +396,9 @@ requires-dist = [
     { name = "ipykernel", specifier = ">=6.29.5" },
     { name = "langchain", specifier = ">=0.3.9" },
     { name = "langchain-community", specifier = ">=0.3.9" },
+    { name = "langchain-core", specifier = ">=0.3.21" },
     { name = "langchain-groq", specifier = ">=0.2.1" },
+    { name = "markdown", specifier = ">=3.7" },
     { name = "python-dotenv", specifier = ">=1.0.1" },
     { name = "streamlit", specifier = ">=1.40.2" },
 ]
@@ -950,6 +954,15 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/6c/56/201dd94d492ae47c1bf9b50cacc1985113dc2288d8f15857e1f4a6818376/langsmith-0.1.147.tar.gz", hash = "sha256:2e933220318a4e73034657103b3b1a3a6109cc5db3566a7e8e03be8d6d7def7a", size = 300453 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/de/f0/63b06b99b730b9954f8709f6f7d9b8d076fa0a973e472efe278089bde42b/langsmith-0.1.147-py3-none-any.whl", hash = "sha256:7166fc23b965ccf839d64945a78e9f1157757add228b086141eb03a60d699a15", size = 311812 },
+]
+
+[[package]]
+name = "markdown"
+version = "3.7"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/54/28/3af612670f82f4c056911fbbbb42760255801b3068c48de792d354ff4472/markdown-3.7.tar.gz", hash = "sha256:2ae2471477cfd02dbbf038d5d9bc226d40def84b4fe2986e49b59b6b472bbed2", size = 357086 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/3f/08/83871f3c50fc983b88547c196d11cf8c3340e37c32d2e9d6152abe2c61f7/Markdown-3.7-py3-none-any.whl", hash = "sha256:7eb6df5690b81a1d7942992c97fad2938e956e79df20cbc6186e9c3a77b1c803", size = 106349 },
 ]
 
 [[package]]
